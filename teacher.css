@@ -1,0 +1,49 @@
+.teacher_main_1 {
+background: white;
+min-height: 50px;
+text-align: center;
+}
+.teacher_main_1 p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.teacher_main_2 {
+  display: flex;
+  background: white;
+}
+
+.teacher_main_2_1 {
+  flex: 1 1 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.teacher_main_2_1 div {
+  width: 300px;
+  min-height: 400px;
+  margin-bottom: 15px;
+}
+.teacher_main_2_1 img {
+  border-radius: 50%;
+  width: 200px;
+  margin-left: calc( (100% - 200px) / 2 );
+  margin-top: 10px;
+  filter: grayscale(100%);
+  transition: .3s ease;
+}
+.teacher_main_2_1 img:hover {
+  filter: grayscale(0%);
+}
+.teacher_main_2_1 h4 {
+  text-align: center;
+}
+.teacher_main_2_1 p {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}

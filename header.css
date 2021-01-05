@@ -1,0 +1,54 @@
+header {
+ background: 
+ url('./image/logo_2p.gif'),
+ url('./image/header_for_all.gif');
+ 
+ background-repeat: no-repeat;
+ background-position: 10px 10px, center;
+ color: #283F92;
+ max-width: 1360px;
+ height: 400px;
+ background-size: 45px, cover;
+}
+header ul {
+ margin-right: 20px;
+ margin-top: 20px;
+ float: right;
+}
+header a {
+  text-decoration: none;
+  color: #283F92;
+}
+header li {
+box-sizing: border-box;
+font-weight: bold;
+text-transform: uppercase;
+padding: 5px 5px 5px 5px;
+margin: 0 1px 0 1px;
+display: inline;
+border: solid #ffffff00 1px;
+}
+header li:hover{
+ border: solid #7b91e1 1px;
+ border-radius: 10px;  
+ box-shadow: inset 2px 2px 5px -1px white;
+}
+header li:active{
+ border-radius: 10px;  
+ background-color: #7b91e1;
+ box-shadow: inset 2px 2px 5px -1px black;
+ color: white;
+}
+header h1 {
+clear: both;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-top: 0px;
+margin-left: 100px;
+text-transform: uppercase;
+font-size: 3em;
+}
+header p {
+  margin-left: 100px;
+  width: 30%;
+} 

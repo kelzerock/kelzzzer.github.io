@@ -1,0 +1,80 @@
+.price_main_1 {
+  display: flex;
+  background: white;
+  min-height: 400px;
+}
+.price_main_1 div {
+ box-sizing: border-box;
+}
+.price_main_1_1 {
+  display: flex;
+  flex-direction: column;
+}
+.price_self {
+  min-height: 30px;
+  width: 100%; 
+}
+.price_self h3 {
+  margin: 0;
+  padding-left: 8%;
+  color: #7492ec;
+}
+.price_grup {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  min-height: 30px;
+  background: #dfe5f2;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-radius: 5px;
+  padding: 2px 5px 2px 5px;
+}
+.price_grup p {
+margin: 0;
+}
+hr {
+  margin: 30px 0;
+  width: 80%;
+  margin-left: 10%;
+}
+.price_subscription  {
+  flex: 1 1 100px;
+  max-width: 300px;
+  margin: 0;
+  height: auto;
+  text-align: left;
+  align-self: center;
+}
+
+.price_price  {
+  margin: 3px;
+  /* height: auto; */
+  text-align: left;
+  align-self: center;
+  color: #1e326b;
+  font-weight: bold;
+}
+.price_buy  {
+  height: auto;
+  margin: 3px;
+  text-align: center;
+  align-self: center;
+  border: none !important;
+}
+.price_buy button {
+  background:  #7492ec;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 20px 5px 20px;
+  border-radius: 10px;
+  outline: none;
+}
+.price_buy button:hover {
+  box-shadow: inset 1px 1px 9px white;  
+}
+.price_buy button:active {
+  box-shadow: inset 1px 1px 9px #1e326b;
+  background-color: #4865bd;
+}
