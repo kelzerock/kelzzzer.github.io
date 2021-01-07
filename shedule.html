@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="family.css">
   <link rel="stylesheet" href="header.css">
-  <link rel="stylesheet" href="2.css">
+  <link rel="stylesheet" href="shedule.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
  <Title>Расписание</Title>
@@ -13,27 +13,340 @@
 <body>
   <header>
     <ul>
-      <a href="main.html" title="На главную"><li>на главную</li></a>
+      <a href="index.html" title="На главную"><li>на главную</li></a>
       <a href="about.html" title="О студии"><li>о студии</li></a>
       <a href="way.html" title="Направления йоги"><li>направления</li></a>
       <a href="teacher.html" title="На главную"><li>преподаватели</li></a>
       <a href="price.html" title="Цены"><li>цены</li></a>
+      <a href="shedule.html" title="Расписание"><li style="text-decoration: underline;">расписание</li></a>
         </ul>
     <h1>Расписание занятий</h1>
     <p>Составляя расписание &ndash; мы всегда думаем о Вашем удобстве! </p>
     </header>
+    <div class="f1">
+    <div class="button_day">
+      <button>/</button>
+      <button class="d_8 d_1" onclick="monday()">Пн</button>
+      <button class="d_8 d_2" onclick="tuesday()">Вт</button>
+      <button class="d_8 d_3" onclick="wednesday()">Ср</button>
+      <button class="d_8 d_4" onclick="thursday()">Чт</button>
+      <button class="d_8 d_5" onclick="friday()">Пт</button>
+      <button class="d_8 d_6" onclick="saturday()">Сб</button>
+      <button class="d_8 d_7" onclick="sunday()">Вс</button>
+      <button>/</button>
+     </div></div>
+  <div class="shedule_main_1">
+      <div class="none"  style="flex: 0 0 100px"></div>
+   
+    <div class="shedule_main_2">
+      <div class="tu we th fr sa su monday">
+        <h2>Понедельник</h2>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>13.00</p></div>
+          <div class="shedule_yoga"><p>Хатха-йога</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>14.00</p></div>
+          <div class="shedule_yoga"><p>Аштанга йога</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>15.00</p></div>
+          <div class="shedule_yoga"><p>Кундалини йога</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>16.00</p></div>
+          <div class="shedule_yoga"><p>Хатха-йога</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>17.00</p></div>
+          <div class="shedule_yoga"><p>Power Yoga</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>18.00</p></div>
+          <div class="shedule_yoga"><p>Йога в гамаках</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>19.00</p></div>
+          <div class="shedule_yoga"><p>Йога для начинающих</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+      </div>
+      <div class="mn we th fr sa su tuesday" style="display: none">
+        <h2>Вторник</h2>
+          <div class="shedule_grup">
+            <div class="shedule_time"><p>8.00</p></div>
+            <div class="shedule_yoga"><p>Йога в гамаках</p></div>
+            <div class="shedule_reg"><button>check in</button></div>
+          </div>
+          <div class="shedule_grup">
+            <div class="shedule_time"><p>9.00</p></div>
+            <div class="shedule_yoga"><p>Йога-Нидра</p></div>
+            <div class="shedule_reg"><button>check in</button></div>
+          </div>
+          <div class="shedule_grup">
+            <div class="shedule_time"><p>10.00</p></div>
+            <div class="shedule_yoga"><p>Йога Айенгара</p></div>
+            <div class="shedule_reg"><button>check in</button></div>
+          </div>
+          <div class="shedule_grup">
+            <div class="shedule_time"><p>11.00</p></div>
+            <div class="shedule_yoga"><p>Хатха-йога</p></div>
+            <div class="shedule_reg"><button>check in</button></div>
+          </div>
+          <div class="shedule_grup">
+            <div class="shedule_time"><p>12.00</p></div>
+            <div class="shedule_yoga"><p>Йога для подростков</p></div>
+            <div class="shedule_reg"><button>check in</button></div>
+          </div>
+          <div class="shedule_grup">
+            <div class="shedule_time"><p>13.00</p></div>
+            <div class="shedule_yoga"><p>Power Yoga</p></div>
+            <div class="shedule_reg"><button>check in</button></div>
+          </div>
+          <div class="shedule_grup">
+            <div class="shedule_time"><p>14.00</p></div>
+            <div class="shedule_yoga"><p>Хатха-йога</p></div>
+            <div class="shedule_reg"><button>check in</button></div>
+          </div>
+          <div class="shedule_grup">
+            <div class="shedule_time"><p>15.00</p></div>
+            <div class="shedule_yoga"><p>Аштанга йога</p></div>
+            <div class="shedule_reg"><button>check in</button></div>
+          </div>
+          
+      </div>
+      <div class="mn tu th fr sa su wednesday" id="RRR" style="display: none">
+        <h2>Среда</h2>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>13.00</p></div>
+          <div class="shedule_yoga"><p>Кундалини йога</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>14.00</p></div>
+          <div class="shedule_yoga"><p>Аштанга йога</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>15.00</p></div>
+          <div class="shedule_yoga"><p>Йога Айенгара</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>16.00</p></div>
+          <div class="shedule_yoga"><p>Йога для подростков</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>17.00</p></div>
+          <div class="shedule_yoga"><p>Хатха-йога</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>18.00</p></div>
+          <div class="shedule_yoga"><p>Йога в гамаках</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>19.00</p></div>
+          <div class="shedule_yoga"><p>Йогатерапия</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+      </div>
+      <div class="mn tu we fr sa su thursday" id="RRR" style="display: none">
+        <h2>Четверг</h2>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>8.00</p></div>
+          <div class="shedule_yoga"><p>Йога для подростков</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>9.00</p></div>
+          <div class="shedule_yoga"><p>Power Yoga</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>10.00</p></div>
+          <div class="shedule_yoga"><p>Йога для начинающих</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>11.00</p></div>
+          <div class="shedule_yoga"><p>Хатха-йога</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>12.00</p></div>
+          <div class="shedule_yoga"><p>Йога-Нидра</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>13.00</p></div>
+          <div class="shedule_yoga"><p>Power Yoga</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>14.00</p></div>
+          <div class="shedule_yoga"><p>Хатха-йога</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>15.00</p></div>
+          <div class="shedule_yoga"><p>Йога в гамаках</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        
+        
+      </div>
+      <div class="mn tu we th sa su friday" id="RRR" style="display: none">
+        <h2>Пятница</h2>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>13.00</p></div>
+          <div class="shedule_yoga"><p>Аштанга йога</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>14.00</p></div>
+          <div class="shedule_yoga"><p>Power Yoga</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>15.00</p></div>
+          <div class="shedule_yoga"><p>Кундалини йога</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>16.00</p></div>
+          <div class="shedule_yoga"><p>Аштанга йога</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>17.00</p></div>
+          <div class="shedule_yoga"><p>Хатха-йога</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>18.00</p></div>
+          <div class="shedule_yoga"><p>Йога для подростков</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>19.00</p></div>
+          <div class="shedule_yoga"><p>Йога в гамаках</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        
+      </div>
+      <div class="mn tu we th fr su saturday" id="RRR" style="display: none">
+        <h2>Суббота</h2>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>10.00</p></div>
+          <div class="shedule_yoga"><p>Детская йога</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>11.00</p></div>
+          <div class="shedule_yoga"><p>Йога для подростков</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>12.00</p></div>
+          <div class="shedule_yoga"><p>Power Yoga</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>13.00</p></div>
+          <div class="shedule_yoga"><p>йога</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>14.00</p></div>
+          <div class="shedule_yoga"><p>Детская йога</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>15.00</p></div>
+          <div class="shedule_yoga"><p>Аштанга йога</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>16.00</p></div>
+          <div class="shedule_yoga"><p>Power Yoga</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>17.00</p></div>
+          <div class="shedule_yoga"><p>Кундалини йога</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>18.00</p></div>
+          <div class="shedule_yoga"><p>Хатха-йога</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>19.00</p></div>
+          <div class="shedule_yoga"><p>Йога в гамаках</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        
+      </div>
+      <div class="mn tu we th fr sa sunday" id="RRR" style="display: none">
+        <h2>Воскресенье</h2>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>14.00</p></div>
+          <div class="shedule_yoga"><p>Аштанга йога</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>15.00</p></div>
+          <div class="shedule_yoga"><p>Кундалини йога</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>16.00</p></div>
+          <div class="shedule_yoga"><p>Йогатерапия</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>17.00</p></div>
+          <div class="shedule_yoga"><p>Аштанга йога</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>18.00</p></div>
+          <div class="shedule_yoga"><p>Хатха-йога</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        <div class="shedule_grup">
+          <div class="shedule_time"><p>19.00</p></div>
+          <div class="shedule_yoga"><p>Йога в гамаках</p></div>
+          <div class="shedule_reg"><button>check in</button></div>
+        </div>
+        
+      </div>
+    </div>
+    <div  class="none" style="flex: 0 0 100px"></div>
+  </div>
   <footer>
     <div class="floor_1">
-      <div></div>
+      <div class="none"></div>
       <div> <p>ПОДПИШИСЬ!<br> Только полезная информация!</p></div>
-      <div><form><input type="text" placeholder="Ваш электронный адрес">
+      <div><form><input type="text" placeholder="Ваш эл.адрес"> 
+        <br class="line" style="display: none;">
         <input type="button" value="Подписаться"></form></div>
-      <div></div>
+      <div class="none"></div>
     </div>
     <div class="floor_2">
-      <div style="flex: 0 0 100px; "></div>
+      <div  class="none" style="flex: 0 0 100px; "></div>
       <div style="flex: 1 1 100px; ">
-      <h4>Наши контакты</h4>
+      <h4>Наши контакты:</h4>
       <p>Минск<br>
       ул. Скрыганова 14 <br>
       12 этаж <br><br>
@@ -43,7 +356,7 @@
       <a href="https://vk.com/yoga_vk" title="Наша страница в VK"><i class="fa fa-vk" aria-hidden="true" style="color: #4d75a3;"></i></a> 
       <a href="https://ok.ru/yogagroup" title="Наша страница в Odnoklassniki"><i class="fa fa-odnoklassniki" aria-hidden="true" style="color: #ee8208;"></i></a>
       </p></div>
-      <div style="flex: 1 1 100px; ">
+      <div class="footer_last_1"  style="flex: 1 1 100px; ">
       <h4>Время работы:</h4>
       <ul>
         <li>Пн  <i class="fa fa-angle-right" aria-hidden="true"></i> 13.00 - 20.00</li>
@@ -54,7 +367,7 @@
         <li>Сб <i class="fa fa-angle-right" aria-hidden="true"></i> 10.00 - 20.00</li>
         <li>Вс <i class="fa fa-angle-right" aria-hidden="true"></i> 14.00 - 20.00</li>
               </ul></div>
-      <div style="flex: 0 0 320px; ">
+      <div class="footer_last_2" style="flex: 0 0 320px; ">
         <iframe style="margin-top: 10px;" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad3b84c0f8caf12b5fbc017c6183fa174bc198745066a93234c3ae45d7271fd2f&amp;source=constructor" width="320" height="240" frameborder="0"></iframe>
       </div>
       <div class="floor_3_4" style="flex: 1 1 100px; ">
@@ -66,13 +379,13 @@
         <li><a href="http://www.grsmu.by/ru/university/structure/departments/work-people/virtualnuu_kabinet/sam_sebe_psixolog/stress/" title="Про стресс и как с ним бороться"> Стресс <i class="fa fa-heartbeat" aria-hidden="true"></i></a></li>
   
         </ul></div>
-      <div style="flex: 0 0 100px; "></div>
+      <div class="none" style="flex: 0 0 100px; "></div>
      
   </div>
     <div class="floor_3">
     <p>Build by kelzzzer<br>
     <a href='https://www.freepik.com/photos/people' title="Спасибо данному сайту за фото">People photo created by<br>peoplecreations - www.freepik.com</a></p>
-      <div style="float: right; margin-right: 100px;">
+      <div class="none" style="float: right; margin-right: 100px;">
       <ul>Партнеры:
         <a href="https://sportoutlet.by/catalog/vidy-sporta/yoga-i-tantsy/" title="Качественная одежда для йоги"><li>Одежда для йоги</li></a>
         <a href="https://www.lode.by/" title="Медицинская поддержка"><li>Медицинское обслуживание</li></a>
@@ -83,5 +396,7 @@
 
    </footer>
    <script src="https://use.fontawesome.com/230c8a7e19.js"></script>
+   <script src="scripts.js">
+     </script>
 </body>
 </html>

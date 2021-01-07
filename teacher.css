@@ -29,8 +29,8 @@ text-align: center;
 }
 .teacher_main_2_1 img {
   border-radius: 50%;
-  width: 200px;
-  margin-left: calc( (100% - 200px) / 2 );
+  width: 90%;
+  margin-left: calc( (100% - 90%) / 2 );
   margin-top: 10px;
   filter: grayscale(100%);
   transition: .3s ease;
@@ -46,4 +46,12 @@ text-align: center;
   padding-left: 10%;
   padding-right: 10%;
 
+}
+@media only all and (max-width: 850px) {
+  .teacher_main_1 p {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+  }
 }

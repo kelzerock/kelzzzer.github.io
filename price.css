@@ -20,7 +20,8 @@
   color: #7492ec;
 }
 .price_grup {
-  width: 100%;
+  width: 96%;
+  margin-left: 2%;
   display: flex;
   justify-content: space-between;
   min-height: 30px;
@@ -39,8 +40,9 @@ hr {
   margin-left: 10%;
 }
 .price_subscription  {
-  flex: 1 1 100px;
-  max-width: 300px;
+  flex: 8 1 50px;
+  -ms-flex: 8 1 50px;
+  /* max-width: 300px; */
   margin: 0;
   height: auto;
   text-align: left;
@@ -48,19 +50,23 @@ hr {
 }
 
 .price_price  {
+  flex: 4 1 50px;
   margin: 3px;
   /* height: auto; */
   text-align: left;
   align-self: center;
   color: #1e326b;
   font-weight: bold;
+  -ms-flex: 4 1 50px;
 }
 .price_buy  {
+  flex: 1 1 50px;
   height: auto;
   margin: 3px;
   text-align: center;
   align-self: center;
   border: none !important;
+  -ms-flex: 1 1 50px;
 }
 .price_buy button {
   background:  #7492ec;

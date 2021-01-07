@@ -1,0 +1,116 @@
+.shedule_main_1 {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 500px;
+  background:  url('image/way_logo.gif'), white;
+  background-repeat: no-repeat;
+  background-position: right 30px;
+  justify-content: space-between;
+}
+
+.button_day {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: calc( ( 100% - 300px) / 2 );
+  background-color: white;
+}
+.button_day button {
+margin-right: -5px;
+border: none;
+background: #7492ec;
+height: 40px;
+width: 40px;
+outline: none;
+color: white;
+}
+
+.button_day button:first-child {
+  border-radius: 20px 0 0 20px;
+  width: 10px;
+  color: #7492ec;
+}
+.button_day button:last-child {
+  border-radius: 0 20px 20px 0;
+  width: 10px;
+  color: #7492ec;
+  disabled: disabled
+}
+.button_day button:hover {
+  box-shadow: inset 1px 1px 4px white;
+}
+.button_day button:first-child:hover, .button_day button:last-child:hover {
+  box-shadow: none;
+}
+.button_day button:active {
+  box-shadow: inset 1px 1px 4px #1e326b;
+  background-color: #4865bd;  
+}
+
+.button_day button:first-child:active, .button_day button:last-child:active {
+  box-shadow: none;
+}
+.shedule_main_2 {
+  flex: 1 1 100px;
+}
+.shedule_main_2 h2 {
+  margin-left: 2%;
+}
+.shedule_grup {
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 0;
+  display: flex;
+  justify-content: space-between;
+  min-height: 30px;
+  background: #dfe5f2;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.shedule_grup p {
+margin: 0 0 0 10px;
+}
+
+.shedule_time  {
+  flex: 1 1 100px;
+  max-width: 300px;
+  margin: 0;
+  height: auto;
+  text-align: left;
+  align-self: center;
+  border-right: solid white 1px;
+
+}
+
+.shedule_yoga {
+  flex: 1 1 100px;
+  margin: 3px;
+  /* height: auto; */
+  text-align: left;
+  align-self: center;
+  color: #1e326b;
+  font-weight: bold;
+}
+.shedule_reg  {
+  height: auto;
+  margin: 3px;
+  text-align: center;
+  align-self: center;
+  border: none !important;
+}
+.shedule_reg button {
+  background:  #7492ec;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 20px 5px 20px;
+  border-radius: 10px;
+  outline: none;
+}
+.shedule_reg button:hover {
+  box-shadow: inset 1px 1px 9px white;  
+}
+.shedule_reg button:active {
+  box-shadow: inset 1px 1px 9px #1e326b;
+  background-color: #4865bd;
+}
