@@ -48,12 +48,13 @@ footer div:first-of-type input:first-of-type{
   border-radius: 45px;
   border: none;
   padding-left: 15px;
-  padding-right: 50px;
+
   outline: none;
   background: #222222;
   color: white;
   text-align: right;
   margin-top: 12px;
+  text-align: left;
   }
 footer div:first-of-type input:last-of-type{
   height: 45px;
@@ -122,4 +123,72 @@ div.floor_3 li {
   vertical-align:middle;
   color: white;
   text-decoration: none;
+}
+
+@media only all and (max-width: 850px) {
+  .floor_1 {
+  flex-direction: column;
+  height: 210px !important;
+  background: #181818 !important;  
+  align-items: flex-start !important;
+}
+.floor_1 div {
+  margin: 0;
+  width: 100%;
+
+}
+.floor_1 p {
+  margin-left: 5%!important;
+  width: 90%!important;
+}
+.floor_1 form {
+  width: 80%!important;
+}
+.floor_1 input:first-child{
+  margin-top: 0!important;
+  margin-left: 5% !important;
+  width: 40%!important;
+  padding-left: 0!important;
+  text-align: center!important;
+  min-width: 100px!important;
+  padding-left: auto!important;
+  padding-right: auto!important;
+}
+.floor_1 input:last-child{
+  position: relative;
+  margin-left: 5% !important;
+  width: 40%!important;
+  right: 0!important;
+  min-width: 100px!important;
+  padding-left: 0!important;
+  padding-right: 0!important;
+  font-weight: small!important;
+}
+.floor_1 br {
+  display: block!important;
+}
+.none {
+  display: none;
+}
+.floor_2 {
+  height: auto!important;
+  background-color: #222222!important;
+}
+
+@media only all and (max-width: 620px) {
+  .footer_last_1 {
+    display: none;
+  }
+  .footer_last_2 {
+  flex: 1 1 10px!important;
+  }
+  .footer_last_2 iframe {
+    width: 90%;
+    height: 80%;
+  }
+} 
+.floor_3 {
+  padding-left: 5%!important;
+}
+
 }
