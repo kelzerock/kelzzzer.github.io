@@ -116,13 +116,14 @@ div.floor_3 li {
   display: inline-block;
   background-color: #222222;
   width: 90px;
-  height: 30px;
+  height: 40px;
   padding: 7px;
   border-radius: 5px/10px;
   text-align: center;
   vertical-align:middle;
   color: white;
   text-decoration: none;
+  padding-top: 5px;
 }
 
 @media only all and (max-width: 850px) {

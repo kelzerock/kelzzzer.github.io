@@ -6,12 +6,16 @@
 }
 .about_main_1 img {
   width: 40%;
-  margin: 10px;
+  margin: 10px 30px 10px 10px;
   float: left;
 }
 .about_main_1 h1{
 margin-top: 0;
 }
+.about_main_1 h4{
+  margin-left: 5%;
+  clear: both;
+  }
 .about_main_1 p {
   margin: 10px;
   text-align: justify;
@@ -36,8 +40,16 @@ margin-top: 0;
 
 .about_main_2 p {
   margin: 0;
+
+}
+.about_main_1 li {
+  clear: both;
 }
 @media only all and (max-width: 850px) {
-
+  .about_main_1 img {
+    float: none;
+    width: 90%;
+    margin-left: 3%;
+  }
   
 }
