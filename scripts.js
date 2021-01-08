@@ -1,3 +1,16 @@
+
+
+function registration(){
+prompt ("Укажите вашу фамилию и имя!")
+do {
+  var numPhoneStr=prompt("Укажите ваш номер телефона с кодом оператора!");
+  var numPhone=parseInt(numPhoneStr);
+} while ( isNaN(numPhone) );
+
+alert('Спасибо! Вы зарегистрированы на ближайшее занятие по xатха-йоге')
+  
+}
+
 function monday(){
   var elems=document.getElementsByClassName('mn');
   for(var i=0; i<elems.length; i++)elems[i].style.display='none';

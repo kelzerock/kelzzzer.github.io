@@ -188,7 +188,7 @@
    <div class="home_main_3">
      <h1>Прикос&shy;нись к своему внутрен&shy;нему фон&shy;тану моло&shy;дости!</h1>
      <p>Регистрируйся на бесплатное занятие по хатха-йоге!</p>
-     <button>Регистрация!</button>
+     <button onclick="registration()">Регистрация!</button>
    </div>
    <div class="home_main_4">
      <h1>Обучение проводится опытными препода&shy;вателями</h1>
@@ -221,9 +221,9 @@
     <div class="floor_1">
       <div class="none"></div>
       <div> <p>ПОДПИШИСЬ!<br> Только полезная информация!</p></div>
-      <div><form><input type="text" placeholder="Ваш эл.адрес"> 
+      <div><form method=post action="/"><input type="text" placeholder="Ваш эл.адрес"> 
         <br class="line" style="display: none;">
-        <input type="button" value="Подписаться"></form></div>
+        <input type="submit" value="Подписаться"></form></div>
       <div class="none"></div>
     </div>
     <div class="floor_2">
@@ -279,5 +279,6 @@
 
    </footer>
    <script src="https://use.fontawesome.com/230c8a7e19.js"></script>
+   <script src="scripts.js"></script>
  </body>
  </html>
